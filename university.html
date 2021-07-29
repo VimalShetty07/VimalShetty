@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oakmont Education</title>
+    <link rel="stylesheet" href="./css/university.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <a href="./index.HTML"> <img src="./images/logo.png" alt=""> </a>  
+        </div>
+        <div class="items">
+            <ul>
+                <li><a href="./index.HTML">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./construction.html">log in</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h2 class="name">vtu</h2>
+            <a href="./branch.html" class="buy" >visit</a>
+            <img src="./images/vtu.png" alt="" class="product">
+        </div>
+        <div class="box">
+            <h2 class="name">Manipal</h2>
+            <a href="./construction.html" class="buy" >visit</a>
+            <img src="./images/manipal.png" alt="" class="product">
+        </div>
+        <div class="box">
+            <h2 class="name">Banglore</h2>
+            <a href="./construction.html" class="buy" >visit</a>
+            <img src="./images/BTU.jpeg" alt="" class="product">
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400,
+
+	});
+    </script>
+ 
+</body>
+</html>
